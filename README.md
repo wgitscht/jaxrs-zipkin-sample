@@ -11,7 +11,7 @@ To start simply run:
 ```mvn clean install tomcat7:run```
 
 to run the zipkin server:
-```docker run -p 9411:9411 openzipkin/zipkin``
+```docker run -p 9411:9411 openzipkin/zipkin```
 
 now go to to
 http://localhost:9090/api/health
